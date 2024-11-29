@@ -1,2 +1,3 @@
-sudo service apache2 stop
-sudo service mysql stop
+sudo systemctl stop apache2
+sudo systemctl stop mysql
+./status.sh
